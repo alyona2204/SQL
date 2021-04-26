@@ -1,0 +1,6 @@
+[('The Surf Guitar', 2018)]
+[('Collection_1', 2019), ('Collection_2', 2018), ('Collection_5', 2019), ('Collection_6', 2020)]
+[('Something About the Way You Look Tonight',), ('I am A Man (Single Version)',), ('Keep a Knockin',), ('Ready Teddy',), ('King Of The Surf Guitar',), ('426 Super Stock',), ('What You See (Live)',), ('Proud mary (live)',), ('Where Do The Children Play',), ('Hard Headed Woman',), ('Free',), ('Loves Missing',), ('In My Defence',)]
+[('Since I Lost My Baby',), ('In My Defence',)]
+[('King Of The Surf Guitar',)]
+Фаррух Балсара

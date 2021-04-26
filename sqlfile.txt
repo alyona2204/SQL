@@ -1,0 +1,225 @@
+INSERT INTO Singer (singer, alias)
+admin-> VALUES ('Арнольд Джордж Дорси', 'Энгельберт Хампердинк');
+INSERT 0 1
+admin=> INSERT INTO Singer (singer, alias)
+VALUES ('Эллас Ота Бэйтс', 'Бо Диддли');
+INSERT 0 1
+admin=> INSERT INTO Singer (singer, alias)
+VALUES ('Ричард Уэйн Пенниман', 'Литл Ричард');
+INSERT 0 1
+admin=> INSERT INTO Singer (singer, alias)
+VALUES ('Ричард Энтони Монсур', 'Дик Дейл');
+INSERT 0 1
+admin=> INSERT INTO Singer (singer, alias)
+VALUES ('Анна Мэй Буллок', 'Тина Тернер');
+INSERT 0 1
+admin=> INSERT INTO Singer (singer, alias)
+VALUES ('Стивен Деметр Гиоргиу', 'Юсуф Ислам');
+INSERT 0 1
+admin=> INSERT INTO Singer (singer, alias)
+VALUES ('Джеймс Ньюэл Остерберг-младший', 'Игги Поп');
+INSERT 0 1
+admin=> INSERT INTO Singer (singer, alias)
+VALUES ('Фаррух Балсара', 'Фредди Меркьюри');
+INSERT 0 1
+admin=> INSERT INTO Genre (name)
+VALUES ('Поп-музыка');
+INSERT 0 1
+admin=> INSERT INTO Genre (name)
+VALUES ('Рок-н-ролл');
+INSERT 0 1
+admin=> INSERT INTO Genre (name)
+VALUES ('Рок-музыка');
+INSERT 0 1
+admin=> INSERT INTO Genre (name)
+VALUES ('Серф-рокер');
+INSERT 0 1
+admin=> INSERT INTO Genre (name)
+VALUES ('Панк-рок');
+INSERT 0 1
+admin=> INSERT INTO Albums (name, years)
+VALUES ('Engelbert calling','2014');
+INSERT 0 1
+admin=> INSERT INTO Albums (name, years)
+VALUES ('The Chess Box','1990');
+INSERT 0 1
+admin=> INSERT INTO Albums (name, years)
+VALUES ('Good Golly','2010');
+INSERT 0 1
+admin=> INSERT INTO Albums (name, years)
+VALUES ('The Surf Guitar','2018');
+INSERT 0 1
+admin=> INSERT INTO Albums (name, years)
+VALUES ('Nutbush City Limits (Live)','2020');
+INSERT 0 1
+admin=> INSERT INTO Albums (name, years)
+VALUES ('Tea for the Tillerman 2','2020');
+INSERT 0 1
+admin=> INSERT INTO Albums (name, years)
+VALUES ('Free','2019');
+INSERT 0 1
+admin=> INSERT INTO Albums (name, years)
+VALUES ('Messenger of the Gods: The Singles','2016');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('Something About the Way You Look Tonight','264', '1');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('Since I Lost My Baby','209', '1');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('Bo Diddley (Single Version','209', '2');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('I am A Man (Single Version)','214', '2');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('Keep a Knockin','227', '3');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('Ready Teddy','212', '3');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('King Of The Surf Guitar','276', '4');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('426 Super Stock','276', '4');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('What You See (Live)','223', '5');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('Proud mary (live)','223', '5');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('Where Do The Children Play','223', '6');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('Hard Headed Woman','265', '6');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('Free','217', '7');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('Loves Missing','232', '7');
+INSERT 0 1
+admin=> INSERT INTO Track (name, duration, id_album)
+VALUES ('In My Defence','216', '8');
+INSERT 0 1
+admin=> INSERT INTO Collection (name, years)
+VALUES ('Collection_1','2019');
+INSERT 0 1
+admin=> INSERT INTO Collection (name, years)
+VALUES ('Collection_2','2018');
+INSERT 0 1
+admin=> INSERT INTO Collection (name, years)
+VALUES ('Collection_3','2017');
+INSERT 0 1
+admin=> INSERT INTO Collection (name, years)
+VALUES ('Collection_4','2016');
+INSERT 0 1
+admin=> INSERT INTO Collection (name, years)
+VALUES ('Collection_5','2019');
+INSERT 0 1
+admin=> INSERT INTO Collection (name, years)
+VALUES ('Collection_6','2020');
+INSERT 0 1
+admin=> INSERT INTO Collection (name, years)
+VALUES ('Collection_7','2015');
+INSERT 0 1
+admin=> INSERT INTO Collection (name, years)
+VALUES ('Collection_8','2017');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('1','1');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('1','2');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('2','3');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('2','4');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('3','5');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('3','6');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('4','7');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('4','8');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('5','9');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('5','10');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('6','11');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('6','12');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('7','13');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('7','14');
+INSERT 0 1
+admin=> INSERT INTO Collection_tracks (id_collection, id_track)
+VALUES ('8','15');
+INSERT 0 1
+admin=> INSERT INTO Genre_singer (id_genre, id_singer)
+VALUES ('1','1');
+INSERT 0 1
+admin=> INSERT INTO Genre_singer (id_genre, id_singer)
+VALUES ('2','2');
+INSERT 0 1
+admin=> INSERT INTO Genre_singer (id_genre, id_singer)
+VALUES ('2','3');
+INSERT 0 1
+admin=> INSERT INTO Genre_singer (id_genre, id_singer)
+VALUES ('4','4');
+INSERT 0 1
+admin=> INSERT INTO Genre_singer (id_genre, id_singer)
+VALUES ('2','5');
+INSERT 0 1
+admin=> INSERT INTO Genre_singer (id_genre, id_singer)
+VALUES ('4','6');
+INSERT 0 1
+admin=> INSERT INTO Genre_singer (id_genre, id_singer)
+VALUES ('3','7');
+INSERT 0 1
+admin=> INSERT INTO Genre_singer (id_genre, id_singer)
+VALUES ('3','8');
+INSERT 0 1
+admin=> INSERT INTO Album_singer (id_album, id_singer)
+VALUES ('1','1');
+INSERT 0 1
+admin=> INSERT INTO Album_singer (id_album, id_singer)
+VALUES ('2','2');
+INSERT 0 1
+admin=> INSERT INTO Album_singer (id_album, id_singer)
+VALUES ('3','3');
+INSERT 0 1
+admin=> INSERT INTO Album_singer (id_album, id_singer)
+VALUES ('4','4');
+INSERT 0 1
+admin=> INSERT INTO Album_singer (id_album, id_singer)
+VALUES ('5','5');
+INSERT 0 1
+admin=> INSERT INTO Album_singer (id_album, id_singer)
+VALUES ('6','6');
+INSERT 0 1
+admin=> INSERT INTO Album_singer (id_album, id_singer)
+VALUES ('7','7');
+INSERT 0 1
+admin=> INSERT INTO Album_singer (id_album, id_singer)
+VALUES ('8','8');
+INSERT 0 1
