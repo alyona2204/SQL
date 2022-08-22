@@ -27,6 +27,16 @@ print(sel5)
 sel6 = connection.execute("""SELECT singer FROM Singer
 """).fetchall()
 
+
+sel7 = connection.execute("""SELECT name, duration FROM tracks WHERE 
+    duration = (SELECT MAX(duration) FROM tracks);
+""").fetchall()
+
+sel8 = connection.execute("""SELECT singer FROM Singer
+WHERE singer NOT LIKE ('%% %%');
+""").fetchall()
+
+
 new=[]
 new.append(sel6)
 new_sel6 =[]
